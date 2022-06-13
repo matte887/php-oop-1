@@ -17,10 +17,6 @@ class Movie {
     public function insertActors($_cast) {
         $this-> cast[] = $_cast;
     }
-
-    public function listActors() { 
-        return $this->cast;
-    }
 }
 
 $movie1 = new Movie("Titanic");
